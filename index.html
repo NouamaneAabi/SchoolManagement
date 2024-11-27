@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMSIM</title>
+    <link rel="stylesheet" href="loggincsss.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    body{
+        background-color: #008d36;
+        
+    }
+</style>
+<body>
+    
+    <div class="container">
+        <form id="loginForm" action="loggin.php" method="post">
+           
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" id="username" name="username" placeholder="Username" required class="form-control">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" name="password" placeholder="Password" class="form-control"required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <button type="submit" class="botona">Login</button>
+            <button type="button" class="botona" onclick="window.location.href = 'signin.html';" id="bobo2">Sign In</button>
+        </form>
+    </div>
+  
+</body>
+</html>
